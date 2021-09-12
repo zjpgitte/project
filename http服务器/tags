@@ -1,0 +1,101 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Accept	Sock.hpp	/^    static int Accept(int sock) {$/;"	f	class:Sock
+AcceptErr	Sock.hpp	/^  AcceptErr$/;"	e	enum:__anon1
+AnalysisAndSetRequestHeader	Protocol.hpp	/^    void AnalysisAndSetRequestHeader(std::vector<std::string> head) {$/;"	f	class:EndPoint
+AnalysisAndSetRequestLine	Protocol.hpp	/^    void AnalysisAndSetRequestLine(std::string s) {$/;"	f	class:EndPoint
+BACKLOG	Sock.hpp	29;"	d
+BIN	Makefile	/^BIN=http_server #生成的可执行文件$/;"	m
+Bind	Sock.hpp	/^    static void Bind(int sock, int port){$/;"	f	class:Sock
+BindErr	Sock.hpp	/^  BindErr,$/;"	e	enum:__anon1
+CC	Makefile	/^CC=g++$/;"	m
+CodeToDesc	Protocol.hpp	/^    std::string CodeToDesc(const std::string code) {$/;"	f	class:Response
+EndPoint	Protocol.hpp	/^    EndPoint(int sock)$/;"	f	class:EndPoint
+EndPoint	Protocol.hpp	/^class EndPoint{$/;"	c
+Entry	Protocol.hpp	/^class Entry{$/;"	c
+FLAGS	Makefile	/^FLAGS=std=c++11 -pthread -g$/;"	m
+GetContentLength	Protocol.hpp	/^    int GetContentLength() {$/;"	f	class:Request
+GetHeader	Protocol.hpp	/^    std::vector<std::string>& GetHeader() {$/;"	f	class:Response
+GetMethod	Protocol.hpp	/^    std::string& GetMethod() {$/;"	f	class:Request
+GetOneLine	Sock.hpp	/^    static std::string GetOneLine(int sock) {$/;"	f	class:Sock
+GetPathAttribution	Protocol.hpp	/^    struct stat GetPathAttribution() {$/;"	f	class:Request
+GetQueryParameter	Protocol.hpp	/^    std::string& GetQueryParameter() {$/;"	f	class:Request
+GetQueryPath	Protocol.hpp	/^    std::string& GetQueryPath() {$/;"	f	class:Request
+GetQueryPathAndStringFromUri	Protocol.hpp	/^    void GetQueryPathAndStringFromUri() {$/;"	f	class:Request
+GetRequestBody	Sock.hpp	/^    static std::string GetRequestBody(int sock, int contentLength) {$/;"	f	class:Sock
+GetRequestHeader	Sock.hpp	/^    static std::vector<std::string> GetRequestHeader(int sock) {$/;"	f	class:Sock
+GetStatusLine	Protocol.hpp	/^    std::string& GetStatusLine() {$/;"	f	class:Response
+GetUri	Protocol.hpp	/^    std::string& GetUri() {$/;"	f	class:Request
+HOMEPAGE	Protocol.hpp	7;"	d
+HandlerAndMakeResponse	Protocol.hpp	/^    void HandlerAndMakeResponse() {$/;"	f	class:EndPoint
+HttpServer	Httpserver.hpp	/^    HttpServer(short port)$/;"	f	class:HttpServer
+HttpServer	Httpserver.hpp	/^class HttpServer{$/;"	c
+InitServer	Httpserver.hpp	/^    void InitServer(){$/;"	f	class:HttpServer
+InsertToKVMap	Protocol.hpp	/^    void InsertToKVMap(std::string&& key, std::string&& val) {$/;"	f	class:Request
+IsAddHomePage	Protocol.hpp	/^    bool IsAddHomePage() {$/;"	f	class:Request
+IsGet	Protocol.hpp	/^    bool IsGet() {$/;"	f	class:Request
+IsNeededGetBody	Protocol.hpp	/^    bool IsNeededGetBody() {$/;"	f	class:EndPoint
+IsPost	Protocol.hpp	/^    bool IsPost() {$/;"	f	class:Request
+Listen	Sock.hpp	/^    static void Listen(int sock){$/;"	f	class:Sock
+ListenErr	Sock.hpp	/^  ListenErr,$/;"	e	enum:__anon1
+Log	Log.hpp	/^void Log(const std::string& s1, const std::string s2){$/;"	f
+MakeHeader	Protocol.hpp	/^    void MakeHeader() {$/;"	f	class:Response
+MakeStatusLine	Protocol.hpp	/^    void MakeStatusLine(const std::string code) {$/;"	f	class:Response
+PathAdd	Protocol.hpp	/^    void PathAdd(const std::string& s) {$/;"	f	class:Request
+PathIsBin	Protocol.hpp	/^    bool PathIsBin() {$/;"	f	class:Request
+PathIsDirectory	Protocol.hpp	/^    bool PathIsDirectory() {$/;"	f	class:Request
+PathIsLegal	Protocol.hpp	/^    bool PathIsLegal() {$/;"	f	class:Request
+Print	Protocol.hpp	/^    void Print() {$/;"	f	class:Request
+PrintMap	Protocol.hpp	/^    void PrintMap() {$/;"	f	class:Request
+PrintRequest	Protocol.hpp	/^    void PrintRequest() {$/;"	f	class:EndPoint
+RecvRequest	Protocol.hpp	/^    void RecvRequest(){$/;"	f	class:EndPoint
+Request	Protocol.hpp	/^    Request(){}$/;"	f	class:Request
+Request	Protocol.hpp	/^class Request{$/;"	c
+Response	Protocol.hpp	/^    Response()$/;"	f	class:Response
+Response	Protocol.hpp	/^class Response{$/;"	c
+Routine	Protocol.hpp	/^    static void *Routine(void *args){$/;"	f	class:Entry
+SRC	Makefile	/^SRC=main.cc$/;"	m
+SendBody	Protocol.hpp	/^    void SendBody() {$/;"	f	class:EndPoint
+SendHeader	Protocol.hpp	/^    void SendHeader() {$/;"	f	class:EndPoint
+SendResponse	Protocol.hpp	/^    void SendResponse() {$/;"	f	class:EndPoint
+SendStatusLine	Protocol.hpp	/^    void SendStatusLine() {$/;"	f	class:EndPoint
+SetBody	Protocol.hpp	/^    void SetBody(std::string&& s) {$/;"	f	class:Request
+SetContentLength	Protocol.hpp	/^    void SetContentLength(int len) {$/;"	f	class:Request
+SetMethod	Protocol.hpp	/^    void SetMethod(std::string s) {$/;"	f	class:Request
+SetOptErr	Sock.hpp	/^  SetOptErr,$/;"	e	enum:__anon1
+SetPath	Protocol.hpp	/^    void SetPath(std::string&& s) {$/;"	f	class:Request
+SetQueryParameter	Protocol.hpp	/^    void SetQueryParameter(std::string&& s) {$/;"	f	class:Request
+SetRequestBody	Protocol.hpp	/^    void SetRequestBody(std::string&& s) {$/;"	f	class:EndPoint
+SetSockOpt	Sock.hpp	/^    static void SetSockOpt(int sock){$/;"	f	class:Sock
+SetUri	Protocol.hpp	/^    void SetUri(std::string s) {$/;"	f	class:Request
+SetVersion	Protocol.hpp	/^    void SetVersion(std::string s) {$/;"	f	class:Request
+Sock	Sock.hpp	/^class Sock{$/;"	c
+Socket	Sock.hpp	/^    static int Socket(){$/;"	f	class:Sock
+SocketErr	Sock.hpp	/^  SocketErr = 1,$/;"	e	enum:__anon1
+Start	Httpserver.hpp	/^    void Start(){$/;"	f	class:HttpServer
+WEBROOT	Protocol.hpp	6;"	d
+_blank	Protocol.hpp	/^    std::string _blank;$/;"	m	class:Response
+_body	Protocol.hpp	/^    std::string _body;$/;"	m	class:Request
+_contentLength	Protocol.hpp	/^    int  _contentLength = 0;$/;"	m	class:Request
+_headMap	Protocol.hpp	/^    std::unordered_map<std::string, std::string> _headMap;$/;"	m	class:Request
+_header	Protocol.hpp	/^    std::vector<std::string> _header;$/;"	m	class:Response
+_lsock	Httpserver.hpp	/^    int _lsock; \/\/ listen sock$/;"	m	class:HttpServer
+_method	Protocol.hpp	/^    std::string _method;$/;"	m	class:Request
+_pathAttribution	Protocol.hpp	/^    struct stat _pathAttribution;$/;"	m	class:Request	typeref:struct:Request::stat
+_port	Httpserver.hpp	/^    short _port; $/;"	m	class:HttpServer
+_queryParameter	Protocol.hpp	/^    std::string _queryParameter;$/;"	m	class:Request
+_queryPath	Protocol.hpp	/^    std::string _queryPath = WEBROOT;$/;"	m	class:Request
+_req	Protocol.hpp	/^    Request _req;$/;"	m	class:EndPoint
+_rsp	Protocol.hpp	/^    Response _rsp;$/;"	m	class:EndPoint
+_sock	Protocol.hpp	/^    int _sock;$/;"	m	class:EndPoint
+_statusLine	Protocol.hpp	/^    std::string _statusLine;$/;"	m	class:Response
+_uri	Protocol.hpp	/^    std::string _uri;$/;"	m	class:Request
+_version	Protocol.hpp	/^    std::string _version;$/;"	m	class:Request
+main	main.cc	/^int main(int argv, char* argc[]){$/;"	f
+main	test/test.cc	/^int main() {$/;"	f
+~EndPoint	Protocol.hpp	/^    ~EndPoint(){$/;"	f	class:EndPoint
+~Request	Protocol.hpp	/^    ~Request(){}$/;"	f	class:Request
